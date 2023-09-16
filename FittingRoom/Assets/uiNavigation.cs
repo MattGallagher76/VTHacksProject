@@ -103,7 +103,7 @@ public class uiNavigation : MonoBehaviour
 
     public void shoulderClick(){
         menuBar.gameObject.SetActive(false);
-        torsoCanvas.gameObject.SetActive(true);
+        shoulderCanvas.gameObject.SetActive(true);
     }
 
 

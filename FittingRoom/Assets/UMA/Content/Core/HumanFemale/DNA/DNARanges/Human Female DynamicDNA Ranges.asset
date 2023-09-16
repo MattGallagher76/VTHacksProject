@@ -3,16 +3,16 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27fa8d9aba5f64596aba9f576eea8aa9, type: 3}
   m_Name: Human Female DynamicDNA Ranges
   m_EditorClassIdentifier: 
-  _dnaConverterLegacy: {fileID: 11400000, guid: 9e2e0dcce00983248a5c1b8107cb1b1d,
-    type: 2}
+  _dnaConverterLegacy: {fileID: 11400000, guid: 9e2e0dcce00983248a5c1b8107cb1b1d, type: 3}
   _dnaConverter:
     _converter: {fileID: 11400000, guid: 9d2d3a48c48fa624c900cbb6bd543607, type: 2}
   means:
@@ -33,7 +33,7 @@ MonoBehaviour:
   - 0.5741379
   - 0.5103447
   - 0.6224138
-  - 0.5913793
+  - 0.5
   - 0.58275855
   - 0.5
   - 0.5
@@ -61,7 +61,7 @@ MonoBehaviour:
   - 0.5
   - 0.5
   - 0.5
-  - 0.5068966
+  - 0.5534482
   - 0.5
   deviations:
   - 0.05
@@ -81,7 +81,7 @@ MonoBehaviour:
   - 0.14195402
   - 0.07643678
   - 0.10977016
-  - 0.069540225
+  - 0.16666667
   - 0.07758621
   - 0.05
   - 0.05
@@ -129,7 +129,7 @@ MonoBehaviour:
   - 0.42586207
   - 0.22931033
   - 0.32931048
-  - 0.20862067
+  - 0.5
   - 0.23275863
   - 0.15
   - 0.15
@@ -157,5 +157,5 @@ MonoBehaviour:
   - 0.15
   - 0.15
   - 0.15
-  - 0.44655183
+  - 0.4465518
   - 0.5
