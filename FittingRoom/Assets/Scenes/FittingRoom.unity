@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3135636, g: 0.5501241, b: 0.8218921, a: 1}
+  m_IndirectSpecularColor: {r: 0.31313568, g: 0.5499817, b: 0.82156545, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2120,6 +2120,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2140998547}
+        m_TargetAssemblyTypeName: UMAFiddler, Assembly-CSharp
+        m_MethodName: StoreArmLengthVal
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &294963831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3657,6 +3669,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2140998547}
+        m_TargetAssemblyTypeName: UMAFiddler, Assembly-CSharp
+        m_MethodName: StoreWaistVal
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &461493038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3939,6 +3963,18 @@ MonoBehaviour:
       - m_Target: {fileID: 584623666}
         m_TargetAssemblyTypeName: uiNavigation, Assembly-CSharp
         m_MethodName: doneHip
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2140998547}
+        m_TargetAssemblyTypeName: UMAFiddler, Assembly-CSharp
+        m_MethodName: StoreHipVal
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4444,6 +4480,18 @@ MonoBehaviour:
       - m_Target: {fileID: 584623666}
         m_TargetAssemblyTypeName: uiNavigation, Assembly-CSharp
         m_MethodName: doneTorso
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2140998547}
+        m_TargetAssemblyTypeName: UMAFiddler, Assembly-CSharp
+        m_MethodName: StoreTorsoVal
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7409,6 +7457,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2140998547}
+        m_TargetAssemblyTypeName: UMAFiddler, Assembly-CSharp
+        m_MethodName: StoreShoulderVal
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &939509575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8827,6 +8887,18 @@ MonoBehaviour:
       - m_Target: {fileID: 584623666}
         m_TargetAssemblyTypeName: uiNavigation, Assembly-CSharp
         m_MethodName: doneArmWidth
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2140998547}
+        m_TargetAssemblyTypeName: UMAFiddler, Assembly-CSharp
+        m_MethodName: StoreArmWidthVal
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13575,6 +13647,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2140998547}
+        m_TargetAssemblyTypeName: UMAFiddler, Assembly-CSharp
+        m_MethodName: StoreChestVal
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1727695568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14530,7 +14614,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.7247612e+25, y: 2.2049368e-10, z: 2.817509e+20, w: 2.7245059e+20}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 7e-45, z: 1.634e-42, w: 9.1835e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -17022,6 +17106,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2140998547}
+        m_TargetAssemblyTypeName: UMAFiddler, Assembly-CSharp
+        m_MethodName: StoreCollarVal
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2137751835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17075,6 +17171,7 @@ GameObject:
   - component: {fileID: 2140998543}
   - component: {fileID: 2140998545}
   - component: {fileID: 2140998546}
+  - component: {fileID: 2140998547}
   m_Layer: 0
   m_Name: Woman
   m_TagString: Untagged
@@ -17501,6 +17598,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headset: {fileID: 1825262783}
+--- !u!114 &2140998547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140998539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fafd38728dc0e14b8a56e415530c4f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collarTextVal: 
+  collarNumberVal: 0
+  collarInputField: {fileID: 1494560448}
+  waistTextVal: 
+  waistNumberVal: 0
+  waistInputField: {fileID: 940734224}
+  hipTextVal: 
+  hipNumberVal: 0
+  hipInputField: {fileID: 784494205}
+  chestTextVal: 
+  chestNumberVal: 0
+  chestInputField: {fileID: 2090075680}
+  torsoTextVal: 
+  torsoNumberVal: 0
+  torsoInputField: {fileID: 1288422315}
+  shoulderTextVal: 
+  shoulderNumberVal: 0
+  shoulderInputField: {fileID: 1930979412}
+  armLengthTextVal: 
+  armLengthNumberVal: 0
+  armLengthInputField: {fileID: 1446458928}
+  armWidthTextVal: 
+  armWidthNumberVal: 0
+  armWidthInputField: {fileID: 12713237}
 --- !u!1 &2143353905
 GameObject:
   m_ObjectHideFlags: 0
