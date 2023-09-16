@@ -16,10 +16,8 @@ public class MirrorMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 localPlayer = mirror.InverseTransformPoint(playerTarget.position);
-        transform.position = mirror.TransformPoint(new Vector3(localPlayer.x, localPlayer.y, localPlayer.z));
-        
-        Vector3 lookatmirror = mirror.TransformPoint(new Vector3(-localPlayer.x, localPlayer.y, -localPlayer.z));
-        transform.LookAt(lookatmirror);
+        Vector3 camVec = playerTarget.position - mirror.position;
+        transform.localPosition = -1 * camVec;
+        transform.LookAt(mirror);
     }
 }
