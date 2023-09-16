@@ -14,8 +14,11 @@ public class uiNavigation : MonoBehaviour
     public Canvas armLengthCanvas;
     public Canvas armWidthCanvas;
 
+    public Canvas maleOrFemalCanvas;
+
     public Canvas menuBar;
     public Button activateMenuButton;
+    
    
 
 
@@ -134,6 +137,12 @@ public class uiNavigation : MonoBehaviour
     public void doneArmWidth(){
         armWidthCanvas.gameObject.SetActive(false);
         menuBar.gameObject.SetActive(true);
+
+    }
+
+    public void genderClick(){
+        maleOrFemalCanvas.gameObject.SetActive(false);
+        activateMenuButton.gameObject.SetActive(true);
 
     }
 }
