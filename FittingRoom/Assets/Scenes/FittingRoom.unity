@@ -266,7 +266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 24427086}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftLowMaxilar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -373,7 +373,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 61982554}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftEyebrowLow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -712,7 +712,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 96151602}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftEar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -744,7 +744,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 110105164}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftLowMaxilarAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1363,7 +1363,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 211242037}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftEarAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2273,7 +2273,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 300077743}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2445,7 +2445,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 326643615}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightUpperLid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2511,7 +2511,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 339922832}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3330,7 +3330,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 384039128}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftEyeGlobe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3498,7 +3498,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 438773797}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tongue01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3561,7 +3561,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 459117151}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightNose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3757,7 +3757,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 476254951}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftNoseAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3788,7 +3788,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 493237828}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftNose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4223,7 +4223,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 574776842}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftEyebrowUpAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4648,7 +4648,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 621382613}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightLowMaxilar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5093,7 +5093,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 656185315}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftLowCheekAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5186,7 +5186,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 674027846}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightLips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5875,7 +5875,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 726148924}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightLowerLidAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5906,7 +5906,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 728631171}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftLowerLidAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6226,7 +6226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 757976298}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LipsSuperior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6627,7 +6627,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 821656677}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NoseBaseAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6858,7 +6858,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 841697261}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightUpperLidAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6889,7 +6889,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 848293219}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightLowCheekAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6920,7 +6920,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 853348402}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightEarAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6951,7 +6951,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 855539983}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: UpperLipsAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7150,7 +7150,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 922738177}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftCheekAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7181,7 +7181,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 928110084}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NoseMiddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7616,7 +7616,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 945726875}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightEyebrowUpAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7647,7 +7647,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 950076523}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftLips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7747,7 +7747,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 976527672}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightNoseAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7778,7 +7778,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 985678610}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftLipsSuperiorMiddleAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7809,7 +7809,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 989559449}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftLipsInferiorAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7840,7 +7840,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 991818487}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8097,7 +8097,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1042635648}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tongue02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8335,7 +8335,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1054450680}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightEyebrowLowAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8366,7 +8366,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1070847036}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightLipsSuperiorMiddleAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8661,7 +8661,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1092689166}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightEyebrowLow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8909,7 +8909,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1135870362}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightLowerLid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8941,7 +8941,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1143670351}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NoseMiddleAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9127,7 +9127,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1161254416}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightLowCheek
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9159,7 +9159,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1173368465}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightEyebrowMiddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9191,7 +9191,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1176040331}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightCheek
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9223,7 +9223,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1176351899}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightLowMaxilarAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9648,7 +9648,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1224123353}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightEyebrowMiddleAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9816,7 +9816,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1273346222}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MandibleAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9847,7 +9847,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1281757276}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftLipsSuperiorMiddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10188,7 +10188,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1298834672}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftUpperLid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10220,7 +10220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1311990458}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightEyeGlobe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10251,7 +10251,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1323966694}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightLipsAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10420,7 +10420,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1347614647}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftEyebrowMiddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10845,7 +10845,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1391355092}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftEyebrowMiddleAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11316,7 +11316,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1471241726}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftCheek
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11514,7 +11514,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1481017519}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightEar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11915,7 +11915,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1520276594}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NoseTopAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12147,7 +12147,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1551182277}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LipsSuperiorAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12491,7 +12491,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1594883729}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightLipsInferior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12556,7 +12556,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1598138648}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mandible
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12763,7 +12763,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1628590753}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftUpperLidAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13003,7 +13003,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1665507568}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NoseTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13105,7 +13105,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1687868477}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftEyebrowLowAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13246,7 +13246,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1709344985}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftLowerLid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13278,7 +13278,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1712514917}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HeadAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13859,7 +13859,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1731597980}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftEyeAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13895,7 +13895,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1746980862}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LipsInferiorAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14076,7 +14076,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1778760344}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightEyebrowUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14528,7 +14528,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 6e-44, z: 1e-45, w: 1.9969e-41}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 3e-45, z: 2.0801e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -14806,6 +14806,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2871854915733156393, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
+      propertyPath: near clip plane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871854915733156393, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871854915733156396, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2871854915951832588, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -14959,7 +14971,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1857140958}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LipsInferior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15049,7 +15061,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1866278218}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightLipsInferiorAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15238,7 +15250,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1910621975}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightCheekAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15437,7 +15449,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1945154583}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NoseBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15675,7 +15687,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1960016500}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftLipsInferior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15707,7 +15719,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1969767621}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: UpperLips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15850,7 +15862,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1993572282}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightLipsSuperiorMiddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16129,7 +16141,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2055189408}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftLowCheek
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16629,7 +16641,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2086744537}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftLipsAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16859,7 +16871,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2126226688}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightEyeAdjust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16890,7 +16902,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2135001354}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftEyebrowUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17472,7 +17484,7 @@ MonoBehaviour:
     trackingRotationOffset: {x: 0, y: 0, z: 0}
   turnSmoothness: 0
   ikHead: {fileID: 1898870795}
-  headBodyOffset: {x: 0, y: 0, z: 0}
+  headBodyOffset: {x: 0, y: -1.5, z: 0}
 --- !u!1 &2143353905
 GameObject:
   m_ObjectHideFlags: 0
