@@ -5770,7 +5770,7 @@ MonoBehaviour:
     trackingRotationOffset: {x: 0, y: 0, z: 0}
   turnSmoothness: 0
   ikHead: {fileID: 1792354832}
-  headBodyOffset: {x: 0, y: 0, z: 0}
+  headBodyOffset: {x: 0, y: -1.5, z: 0}
 --- !u!1 &577373295
 GameObject:
   m_ObjectHideFlags: 0
