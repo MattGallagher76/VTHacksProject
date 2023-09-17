@@ -17,8 +17,12 @@ public class uiNavigation : MonoBehaviour
     public Canvas maleOrFemalCanvas;
 
     public Canvas menuBar;
+
     public Button activateMenuButton;
-    
+    public Button volumeOnButton;
+    public Button volumeOffButton;
+
+    public GameObject music;   
    
 
 
@@ -144,5 +148,20 @@ public class uiNavigation : MonoBehaviour
         maleOrFemalCanvas.gameObject.SetActive(false);
         activateMenuButton.gameObject.SetActive(true);
 
+    }
+
+    public void volumeOnClick(){
+        volumeOnButton.gameObject.SetActive(false);
+        volumeOffButton.gameObject.SetActive(true);
+
+        music.GetComponent<AudioSource>().mute = true;
+
+        
+    }
+     public void volumeOffClick(){
+        volumeOnButton.gameObject.SetActive(true);
+        volumeOffButton.gameObject.SetActive(false);
+
+        music.GetComponent<AudioSource>().mute = false;
     }
 }
