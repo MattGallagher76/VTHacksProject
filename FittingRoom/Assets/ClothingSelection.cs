@@ -19,5 +19,7 @@ public class ClothingSelection : MonoBehaviour
     {
         avatar.SetSlot("Chest", "FemaleShirt1");
         avatar.BuildCharacter();
+        avatar.SetSlot("Legs", "FemalePants1");
+        avatar.BuildCharacter();
     }
 }
