@@ -201,5 +201,7 @@ public class UMAFiddler : MonoBehaviour
             avatar.BuildCharacter();
     }
 
+    
+
 
 }

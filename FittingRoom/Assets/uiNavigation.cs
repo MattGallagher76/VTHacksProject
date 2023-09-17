@@ -30,6 +30,7 @@ public class uiNavigation : MonoBehaviour
 
 
     public GameObject music;   
+    public GameObject woman;
    
 
 
@@ -200,5 +201,9 @@ public class uiNavigation : MonoBehaviour
 
     public void shoeColorClick(){
         shoeColors.gameObject.SetActive(false);
+    }
+
+    public void makeWomanAppear(){
+        woman.SetActive(true);
     }
 }
