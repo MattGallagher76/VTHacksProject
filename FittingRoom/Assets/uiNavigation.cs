@@ -53,8 +53,6 @@ public class uiNavigation : MonoBehaviour
    private Color indigo;
    private Color violet;
 
-   private string shirtType;
-   private bool on;
 
 
     // Start is called before the first frame update
@@ -76,9 +74,7 @@ public class uiNavigation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(on){
-        cs = GameObject.FindGameObjectWithTag("model").GetComponent<ClothingSelection>();
-        }
+        
     }
 
     public void activateMenu(){
@@ -390,7 +386,6 @@ public class uiNavigation : MonoBehaviour
 
     public void makeWomanAppear(){
         woman.SetActive(true);
-         on = true;
     }
 
 
