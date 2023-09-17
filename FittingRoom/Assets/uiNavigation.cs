@@ -19,14 +19,17 @@ public class uiNavigation : MonoBehaviour
     public Canvas maleOrFemalCanvas;
 
     public Canvas menuBar;
+       public Canvas clothesBar;
 
     public Canvas shirtColors;
     public Canvas pantsColors;
     public Canvas shoeColors;
 
     public Button activateMenuButton;
+     public Button activateClothesMenuButton;
     public Button volumeOnButton;
     public Button volumeOffButton;
+    public Button clothesToggleInactiveButton;
 
 
     public GameObject music;   
@@ -50,9 +53,20 @@ public class uiNavigation : MonoBehaviour
         menuBar.gameObject.SetActive(true);
         activateMenuButton.gameObject.SetActive(false);
     }
+
+    public void activateClothesMenu(){
+        clothesBar.gameObject.SetActive(true);
+        activateClothesMenuButton.gameObject.SetActive(false);
+    }
+
     public void deactivateMenu(){
         menuBar.gameObject.SetActive(false);
         activateMenuButton.gameObject.SetActive(true);
+    }
+
+    public void deactivateClothesMenu(){
+        clothesBar.gameObject.SetActive(false);
+        activateClothesMenuButton.gameObject.SetActive(true);
     }
 
 
@@ -175,7 +189,7 @@ public class uiNavigation : MonoBehaviour
 
     public void completeMeasurementsClick(){
         menuBar.gameObject.SetActive(false);
-        clothesCanvas.gameObject.SetActive(true);
+        activateClothesMenuButton.gameObject.SetActive(true);
 
     }
 
