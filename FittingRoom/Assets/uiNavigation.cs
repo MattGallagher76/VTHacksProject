@@ -14,13 +14,20 @@ public class uiNavigation : MonoBehaviour
     public Canvas armLengthCanvas;
     public Canvas armWidthCanvas;
 
+    public Canvas clothesCanvas;
+
     public Canvas maleOrFemalCanvas;
 
     public Canvas menuBar;
 
+    public Canvas shirtColors;
+    public Canvas pantsColors;
+    public Canvas shoeColors;
+
     public Button activateMenuButton;
     public Button volumeOnButton;
     public Button volumeOffButton;
+
 
     public GameObject music;   
    
@@ -163,5 +170,35 @@ public class uiNavigation : MonoBehaviour
         volumeOffButton.gameObject.SetActive(false);
 
         music.GetComponent<AudioSource>().mute = false;
+    }
+
+    public void completeMeasurementsClick(){
+        menuBar.gameObject.SetActive(false);
+        clothesCanvas.gameObject.SetActive(true);
+
+    }
+
+    public void shirtButtonClick(){
+        shirtColors.gameObject.SetActive(true);
+    }
+
+    public void shirtColorClick(){
+        shirtColors.gameObject.SetActive(false);
+    }
+
+    public void pantsButtonClick(){
+        pantsColors.gameObject.SetActive(true);
+    }
+
+    public void pantsColorClick(){
+        pantsColors.gameObject.SetActive(false);
+    }
+
+    public void shoeButtonClick(){
+        shoeColors.gameObject.SetActive(true);
+    }
+
+    public void shoeColorClick(){
+        shoeColors.gameObject.SetActive(false);
     }
 }
