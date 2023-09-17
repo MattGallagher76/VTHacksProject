@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: uma-shared-challengerarmorwc
+  m_EditorClassIdentifier: 
+  m_GroupName: uma-shared-challengerarmorwc
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 40d2ede0c8a7fe949966cdcef1ccecd5
+  m_SerializeEntries:
+  - m_GUID: 7aafef8e795d8fb4e97c5f615fff0979
+    m_Address: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/DemoAssetBundles/UnityChallengerArmorSet/WardrobeCollections/ChangerArmorCollection.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fab6a422313ad1e488c9e96d2417075a
+    m_Address: Assets/UMA/Examples/DynamicCharacterSystem Examples/Assets/DemoAssetBundles/UnityChallengerArmorSet/WardrobeCollections/Thumbs/MaleChallengerFull.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f1be4a05ee585044eb084d6f0fa62934, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2c4dbf0717c7da246a6b6f21fd0e9419, type: 2}
+    - {fileID: 11400000, guid: 3c9eac03977cdc146b1b2dea790410e6, type: 2}

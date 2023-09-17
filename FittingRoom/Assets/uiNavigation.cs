@@ -43,6 +43,8 @@ public class uiNavigation : MonoBehaviour
    
    private DynamicCharacterAvatar avatar;
 
+   private ClothingSelection cs;
+
    private Color red;
    private Color orange;
    private Color yellow;
@@ -50,7 +52,9 @@ public class uiNavigation : MonoBehaviour
    private Color blue;
    private Color indigo;
    private Color violet;
-   
+
+   private string shirtType;
+   private bool on;
 
 
     // Start is called before the first frame update
@@ -58,21 +62,23 @@ public class uiNavigation : MonoBehaviour
     {
         
         avatar = woman.GetComponent<DynamicCharacterAvatar>();
-
-        red = new Color(0, 0.59f, 0.59f, 0.3f);
-        orange = new Color(0, 0.31f, 0.53f, 0.16f);
-        yellow = new Color(0, 0.19f, 0.69f, 0.12f);
-        green = new Color(0.33f, 0, 0.34f, 0.6f);
-        blue = new Color(0.59f, 0.33f, 0, 0.45f);
-        indigo = new Color(0.31f, 0, 0, 0.11f);
-        violet = new Color (0.21f, 0.73f, 0, 0);
+        
+        red = Color.red;
+        orange = new Color(0f, 0.31f, 0.53f, 0.16f);
+        yellow = Color.yellow;
+        green = Color.green;
+        blue = Color.blue;
+        indigo = new Color(0.31f, 0f, 0f, 0.11f);
+        violet = new Color (0.21f, 0.73f, 0f, 0f);
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(on){
+        cs = GameObject.FindGameObjectWithTag("model").GetComponent<ClothingSelection>();
+        }
     }
 
     public void activateMenu(){
@@ -214,6 +220,7 @@ public class uiNavigation : MonoBehaviour
     }
 
     public void completeMeasurementsClick(){
+       
         menuBar.gameObject.SetActive(false);
         activateClothesMenuButton.gameObject.SetActive(true);
 
@@ -236,12 +243,12 @@ public class uiNavigation : MonoBehaviour
         avatar.BuildCharacter();
     }
     public void shirtColorYellowClick(){
-        shirtColors.gameObject.SetActive(false);
+       shirtColors.gameObject.SetActive(false);
 
-        avatar.SetColor("Shirt", yellow);
+       avatar.SetColor("Shirt", yellow);
         avatar.BuildCharacter();
 
-        Debug.Log("we are in shirt yellow");
+
     }
     public void shirtColorGreenClick(){
         shirtColors.gameObject.SetActive(false);
@@ -277,43 +284,43 @@ public class uiNavigation : MonoBehaviour
     public void pantsColorRedClick(){
         pantsColors.gameObject.SetActive(false);
 
-        avatar.SetColor("Pants", red);
+        avatar.SetColor("Pants1", red);
         avatar.BuildCharacter();
     }
     public void pantsColorOrangeClick(){
         pantsColors.gameObject.SetActive(false);
 
-        avatar.SetColor("Pants", orange);
+        avatar.SetColor("Pants1", orange);
         avatar.BuildCharacter();
     }
     public void pantsColorYellowClick(){
         pantsColors.gameObject.SetActive(false);
 
-        avatar.SetColor("Pants", yellow);
+        avatar.SetColor("Pants1", yellow);
         avatar.BuildCharacter();
     }
     public void pantsColorGreenClick(){
         pantsColors.gameObject.SetActive(false);
 
-        avatar.SetColor("Pants", green);
+        avatar.SetColor("Pants1", green);
         avatar.BuildCharacter();
     }
     public void pantsColorBlueClick(){
         pantsColors.gameObject.SetActive(false);
 
-        avatar.SetColor("Pants", blue);
+        avatar.SetColor("Pants1", blue);
         avatar.BuildCharacter();
     }
     public void pantsColorIndigoClick(){
         pantsColors.gameObject.SetActive(false);
 
-        avatar.SetColor("Pants", indigo);
+        avatar.SetColor("Pants1", indigo);
         avatar.BuildCharacter();
     }
     public void pantsColorVioletClick(){
         pantsColors.gameObject.SetActive(false);
 
-        avatar.SetColor("Pants", violet);
+        avatar.SetColor("Pants1", violet);
         avatar.BuildCharacter();
     }
 
@@ -383,17 +390,19 @@ public class uiNavigation : MonoBehaviour
 
     public void makeWomanAppear(){
         woman.SetActive(true);
+         on = true;
     }
 
 
     public void clickShirt1(){
         shirtOptions.gameObject.SetActive(false);
         shirtColors.gameObject.SetActive(true);
-
+        
         avatar.ClearSlot("Chest");
         avatar.BuildCharacter();
         avatar.SetSlot("Chest", "FemaleShirt1");
         avatar.BuildCharacter();
+        
 
     }
     public void clickShirt2(){
