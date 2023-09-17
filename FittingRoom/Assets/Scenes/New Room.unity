@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1790556, g: 0.21854803, b: 0.2733943, a: 1}
+  m_IndirectSpecularColor: {r: 0.1790366, g: 0.2185215, b: 0.2734365, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7793,6 +7793,7 @@ GameObject:
   - component: {fileID: 575275878}
   - component: {fileID: 575275879}
   - component: {fileID: 575275880}
+  - component: {fileID: 575275881}
   m_Layer: 0
   m_Name: Woman
   m_TagString: Untagged
@@ -8443,6 +8444,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headset: {fileID: 99752370}
+--- !u!114 &575275881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575275870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d13e1e2bcc2bb4ab09ef42154e2a84ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &583128170
 GameObject:
   m_ObjectHideFlags: 0
